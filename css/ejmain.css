@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Paleta colores */
+:root {
+    --color-bg: #121212;           /* fondo oscuro */
+    --color-text: #ffffff;         /* blanco */
+    --color-accent: #e63946;       /* rojo vibrante hover */
+    --color-bg-secondary: #1f1f1f; /* gris oscuro para secciones */
+}
+
+
+body {
+    background-color: var(--color-bg-secondary);
+    color: var(--color-text);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+
+#principal {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    padding: 10px 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+header img {
+    height: 100px;
+    width: auto;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+
+nav {
+    background-color: var(--color-bg-secondary);
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: var(--color-accent);
+    color: var(--color-bg);
+}
+
+
+.bienvenida {
+    text-align: center;
+    margin: 30px 0 50px 0;
+}
+
+.bienvenida h4 {
+    margin-bottom: 15px;
+}
+
+.bienvenida p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #ccc;
+}
+
+
+.noticia {
+    margin-bottom: 40px;
+}
+
+
+.noticia-titulo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.noticia-titulo h4 {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Estilo para las imágenes para que tengan el mismo tamaño y queden rectas */
+.imagenes img {
+    width: 300px; /* ancho fijo igual para las dos */
+    height: 400px; /* altura fija para que queden iguales */
+    object-fit: cover; /* recorta la imagen para que encaje sin deformar */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.imagenes2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Estilo para las imágenes para que tengan el mismo tamaño y queden rectas */
+.imagenes2 img {
+    width: 300px; /* ancho fijo igual para las dos */
+    height: 400px; /* altura fija para que queden iguales */
+    object-fit: cover; /* recorta la imagen para que encaje sin deformar */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.imagenes3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Estilo para las imágenes para que tengan el mismo tamaño y queden rectas */
+.imagenes3 img {
+    width: 300px; /* ancho fijo igual para las dos */
+    height: 400px; /* altura fija para que queden iguales */
+    object-fit: cover; /* recorta la imagen para que encaje sin deformar */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.imagenes4 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Estilo para las imágenes para que tengan el mismo tamaño y queden rectas */
+.imagenes4 img {
+    width: 300px; /* ancho fijo igual para las dos */
+    height: 400px; /* altura fija para que queden iguales */
+    object-fit: cover; /* recorta la imagen para que encaje sin deformar */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+/* Artículo noticia1 */
+#noticia1 {
+    margin-top: 30px;
+}
+
+#noticia1 img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#noticia1 p {
+    max-width: 700px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #ddd;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid black;
+    margin-top: 50px;
+}
+
+/* Aqui se configura lo de historia */
+.historia {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.historia > h2,
+.historia > h3 {
+    margin-bottom: 10px; /* espacio debajo de los títulos */
+}
+
+.historia > p {
+    margin-bottom: 25px; /* espacio debajo de los párrafos */
+    line-height: 1.6; /* hace que el texto sea más legible */
+}
+
+
+
+
+
+
